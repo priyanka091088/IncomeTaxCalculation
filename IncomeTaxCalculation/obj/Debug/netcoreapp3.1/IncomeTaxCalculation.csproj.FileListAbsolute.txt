@@ -1,0 +1,13 @@
+C:\Users\Win10\source\repos\IncomeTaxCalculation\IncomeTaxCalculation\bin\Debug\netcoreapp3.1\IncomeTaxCalculation.exe
+C:\Users\Win10\source\repos\IncomeTaxCalculation\IncomeTaxCalculation\bin\Debug\netcoreapp3.1\IncomeTaxCalculation.deps.json
+C:\Users\Win10\source\repos\IncomeTaxCalculation\IncomeTaxCalculation\bin\Debug\netcoreapp3.1\IncomeTaxCalculation.runtimeconfig.json
+C:\Users\Win10\source\repos\IncomeTaxCalculation\IncomeTaxCalculation\bin\Debug\netcoreapp3.1\IncomeTaxCalculation.runtimeconfig.dev.json
+C:\Users\Win10\source\repos\IncomeTaxCalculation\IncomeTaxCalculation\bin\Debug\netcoreapp3.1\IncomeTaxCalculation.dll
+C:\Users\Win10\source\repos\IncomeTaxCalculation\IncomeTaxCalculation\bin\Debug\netcoreapp3.1\IncomeTaxCalculation.pdb
+C:\Users\Win10\source\repos\IncomeTaxCalculation\IncomeTaxCalculation\obj\Debug\netcoreapp3.1\IncomeTaxCalculation.csprojAssemblyReference.cache
+C:\Users\Win10\source\repos\IncomeTaxCalculation\IncomeTaxCalculation\obj\Debug\netcoreapp3.1\IncomeTaxCalculation.AssemblyInfoInputs.cache
+C:\Users\Win10\source\repos\IncomeTaxCalculation\IncomeTaxCalculation\obj\Debug\netcoreapp3.1\IncomeTaxCalculation.AssemblyInfo.cs
+C:\Users\Win10\source\repos\IncomeTaxCalculation\IncomeTaxCalculation\obj\Debug\netcoreapp3.1\IncomeTaxCalculation.csproj.CoreCompileInputs.cache
+C:\Users\Win10\source\repos\IncomeTaxCalculation\IncomeTaxCalculation\obj\Debug\netcoreapp3.1\IncomeTaxCalculation.dll
+C:\Users\Win10\source\repos\IncomeTaxCalculation\IncomeTaxCalculation\obj\Debug\netcoreapp3.1\IncomeTaxCalculation.pdb
+C:\Users\Win10\source\repos\IncomeTaxCalculation\IncomeTaxCalculation\obj\Debug\netcoreapp3.1\IncomeTaxCalculation.genruntimeconfig.cache
