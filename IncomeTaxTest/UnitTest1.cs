@@ -5,6 +5,7 @@ namespace IncomeTaxTest
     [TestClass]
     public class UnitTest1
     {
+        double actual = 0;
         [TestMethod]
         public void when_Age_LessThanEqualToZero()
         { 
@@ -19,8 +20,7 @@ namespace IncomeTaxTest
             [TestMethod]
             public void when_Age_LessThanSixty()
             {
-            //age(<60) 
-            double actual = 0;
+            //when age(<60) 
                 TaxCalculator salaryLessThan0 = new TaxCalculator(21, -980); //salary<0
                 Assert.ThrowsException<System.ArgumentOutOfRangeException>(() => salaryLessThan0.IsSalaryValid(-980));
 
@@ -60,8 +60,8 @@ namespace IncomeTaxTest
         [TestMethod]
         public void when_Age_InBetweenSixtyToEighty()
         {
-            //age(60-79)
-            double actual = 0;
+            // when age(60-79)
+
             TaxCalculator Age65_salaryLessThan0 = new TaxCalculator(65, -980); //salary<0
             Assert.ThrowsException<System.ArgumentOutOfRangeException>(() => Age65_salaryLessThan0.IsSalaryValid(-980));
 
@@ -102,8 +102,8 @@ namespace IncomeTaxTest
         public void when_Age_GreaterThanEighty()
         {
 
-            //age(>=80)
-            double actual = 0;
+            //when age(>=80)
+
             TaxCalculator Age85_salaryLessThan0 = new TaxCalculator(85, -980); //salary<0
             Assert.ThrowsException<System.ArgumentOutOfRangeException>(() => Age85_salaryLessThan0.IsSalaryValid(-980));
 
