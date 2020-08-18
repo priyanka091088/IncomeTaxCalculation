@@ -4,7 +4,7 @@ using System.Text;
 
 namespace IncomeTaxCalculation
 {
-    class TaxCalculator
+   public class TaxCalculator
     {
         public TaxCalculator(int age, double salary)
         {
@@ -13,6 +13,24 @@ namespace IncomeTaxCalculation
         }
         private double Salary { get; set; }
         private int Age { get; set; }
+
+        public const string AgeLessThanZeroMessage = "The age of the employeee can not be less than 0";
+        public const string AgeIsNullMessage = "The age of the employeee can not be a null value";
+
+        public void IsAgeValid(int age)
+        {
+            if (age <= 0)
+            {
+                throw new ArgumentOutOfRangeException("age", age, AgeLessThanZeroMessage);
+            }
+        }
+        public void IsSalaryValid(double salary)
+        {
+            if (salary <= 0)
+            {
+                throw new ArgumentOutOfRangeException("salary", salary, AgeLessThanZeroMessage);
+            }
+        }
         private double _belowSixty
         {
             get
@@ -49,13 +67,13 @@ namespace IncomeTaxCalculation
 
             if (Age < 60)
             {
-                taxValue = (Salary < 500000) ? (_belowSixty * Salary) : (Salary >= 500000 && Salary < 1000000) ?
+                taxValue = (Salary <= 500000) ? (_belowSixty * Salary) : (Salary > 500000 && Salary <= 1000000) ?
                  (_belowSixty * (Salary - 500000) + 12500) : ((_belowSixty * (Salary - 1000000)) + 112500);
             }
             else if (Age >= 60 && Age < 80)
             {
 
-                taxValue = (Salary <= 500000) ? (_sixtyToEighty * Salary) : (Salary > 500000 && Salary < 1000000) ?
+                taxValue = (Salary <= 500000) ? (_sixtyToEighty * Salary) : (Salary > 500000 && Salary <= 1000000) ?
                     ((_sixtyToEighty * (Salary - 500000)) + 10000) : ((_sixtyToEighty * (Salary - 1000000)) + 110000);
             }
             else if (Age >= 80)
